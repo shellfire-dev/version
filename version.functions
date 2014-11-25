@@ -1,29 +1,29 @@
 version_isLessThan()
 {
-	version_is eq 0 "$@"
+	_version_is eq 0 "$@"
 }
 
 version_isEqualTo()
 {
-	version_is eq 1 "$@"
+	_version_is eq 1 "$@"
 }
 
 version_isGreaterThan()
 {
-	version_is eq 2 "$@"
+	_version_is eq 2 "$@"
 }
 
 version_isLessThanOrEqualTo()
 {
-	version_is le 1 "$@"
+	_version_is le 1 "$@"
 }
 
 version_isGreaterThanOrEqualTo()
 {
-	version_is ge 1 "$@"
+	_version_is ge 1 "$@"
 }
 
-version_is()
+_version_is()
 {
 	local operator=$1
 	local expectedCode=$2
