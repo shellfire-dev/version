@@ -127,4 +127,5 @@ Compares as if `leftVersion` to `rightVersion`. Returns an exit code of `0` for 
 [jsonwriter]: https://github.com/shellfire-dev/jsonwriter "jsonwriter shellfire module homepage"
 [jsonreader]: https://github.com/shellfire-dev/jsonreader "jsonreader shellfire module homepage"
 [urlencode]: https://github.com/shellfire-dev/urlencode "urlencode shellfire module homepage"
+[unicode]: https://github.com/shellfire-dev/unicode "unicode shellfire module homepage"
 [version]: https://github.com/shellfire-dev/version "version shellfire module homepage"
