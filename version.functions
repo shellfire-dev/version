@@ -68,7 +68,7 @@ version_compare()
 
 _version_compare_sort()
 {
-	sort -n -t '.' <<-EOF
+	sort -n -t '.' -k 1,1n -k 2,2n -k 3,4n -k 4,4n -k 5,5n -k 6,6n -k 7,7n <<-EOF
 		${leftVersion}
 		${rightVersion}
 	EOF
