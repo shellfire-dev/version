@@ -6,6 +6,10 @@ The version comparison used in this module assumes numeric, hyphen or period del
 
 \* Unfortunately, we can't use GNU coreutils' `sort --version` as it is not widely supported.
 
+## Compatibility
+
+* Tag `release_2015.0117.1750-1` is compatible with [shellfire] release `release_2015.0117.1750-1`
+
 ## Overview
 
 For example let's say you want to use the option `--netrc-file` with `curl`. For that to work, you'll need at least `curl` version `7.21.5`:-
