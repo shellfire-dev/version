@@ -129,3 +129,4 @@ Compares as if `leftVersion` to `rightVersion`. Returns an exit code of `0` for 
 [urlencode]: https://github.com/shellfire-dev/urlencode "urlencode shellfire module homepage"
 [unicode]: https://github.com/shellfire-dev/unicode "unicode shellfire module homepage"
 [version]: https://github.com/shellfire-dev/version "version shellfire module homepage"
+[curl]: https://github.com/shellfire-dev/curl "curl shellfire module homepage"
